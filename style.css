@@ -1,0 +1,65 @@
+	li{list-style: none}
+	a{text-decoration: none}
+
+	/****************NAVBAR START********************/
+.top-header{width: 100%;height: 100vh;}
+.nav-header nav{background:#0d2933;padding: 0;margin: 0;}
+.nav-header nav li {;}
+.nav-header nav li a{color: white !important;padding:20px 40px!important;display: block !important}
+.nav-header nav li a:hover{border-bottom: 2px solid #fff}
+.header-background img{width: 100%;height: 70vh}
+/****************NAVBAR END********************/
+
+
+
+
+
+/****************start header section********************/
+.extra-header{width: 100%;height: auto;margin: 50px 0px;position: relative;margin: auto;text-align: center;}
+.extra-header h1{font-size: 24px;text-align: center;}
+.extra{position: absolute;text-align: center;padding: 50px 0px;margin: auto;}
+.extradiv{width: 100%;margin: auto;text-align: center;}
+.card{width: 100%;margin: auto;}
+.card-title{background:#cf2cd3;line-height: 75px;color: white}
+.extradiv .card{transition: .4s}
+.extradiv .card:hover{box-shadow: 0 0 55px 0 rgba(0,0,0,.3);transform: translateY(-20px);}
+/****************end header section********************/
+
+
+
+
+
+
+.skill-header{margin: 100px 0px}
+.progress-item{margin: 50px 0px}
+#icon{justify-content: center;text-align: center;display: flex;align-items: center;margin: auto;padding: 10px 0px}
+.skill-des{}
+
+
+.java{justify-content:center;display: flex;align-items: center}
+.javascript{margin: 60px 0px}
+.javascript h1{padding: 50px 0px;font-size: 22px}
+
+.happyclient{width: 100%;margin: auto !important;text-align: center;position:relative;padding:50px 0px;text-align: center;}
+.happyclient h3{line-height: 50px;padding: 50px 0px}
+.clients-comments{width: 100%;margin: auto !important;text-align: center}
+.client-item{margin:20px 0;transition: .7s;margin: auto!important}
+#clientimage-header{width: 100px;height: 100px;border-radius: 50%;margin: 50px 0px}
+
+#form{text-align: center;margin: 100px 0px;z-index: 111;position: relative;}
+#form input{margin: 10px 0px;}
+
+.signup{width: 100%;height: 100vh;position: relative;padding: 50px;z-index: -1;display: block;}
+.signup:before{content: "";position: absolute;left:0;right: 0;bottom:0;background: linear-gradient(160deg,#000040 55%,#fff 0%);top: 0 }
+.footer-item {margin: 18px 0px}
+.footer{padding: 100px 0px;width: 100%;height: auto;background: #000000;margin-top: 150px}
+.footer-item ul{width: 100%}
+.footer-item ul li a{text-align:center }
+.btn-subscribe{background: red;padding: 5px 5px}
+.btn-subscribe a{color: white;}
+.btn-subscribe a:hover{text-decoration: none;color: white}
+.input{width: 155px;margin: 5px 0px}
+.money{font-size: 24px;font-weight: bold}
+.client-item:hover .money{color:#ffff00;}
+.client-item:hover {background:#ff00ff;color: white;box-shadow:0 0 55px 0 rgba(0,0,0,0.5);transform: translateY(-35px); }
+.client-item:hover a{background:#750b6a ;outline: none;border: none;}
